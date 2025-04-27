@@ -1,0 +1,12 @@
+Algoritmo CalculoPuntaje
+	Definir respuestas_correctas, respuestas_incorrectas, respuestas_blanco Como Entero
+	Definir puntaje_final Como Entero
+	Escribir 'Ingrese el número de respuestas correctas:'
+	Leer respuestas_correctas
+	Escribir 'Ingrese el número de respuestas incorrectas:'
+	Leer respuestas_incorrectas
+	Escribir 'Ingrese el número de respuestas en blanco:'
+	Leer respuestas_blanco
+	puntaje_final <- (respuestas_correctas*4)-(respuestas_incorrectas*1)
+	Escribir 'El puntaje final es: ', puntaje_final
+FinAlgoritmo

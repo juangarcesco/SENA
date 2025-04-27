@@ -1,0 +1,12 @@
+Algoritmo CalculoPuntajeDeportivo
+	Definir ganados, empatados, perdidos Como Entero
+	Definir puntaje_total Como Entero
+	Escribir 'Ingrese cantidad de partidos ganados:'
+	Leer ganados
+	Escribir 'Ingrese cantidad de partidos empatados:'
+	Leer empatados
+	Escribir 'Ingrese cantidad de partidos perdidos:'
+	Leer perdidos
+	puntaje_total <- (ganados*3)+empatados
+	Escribir 'El puntaje total del equipo es: ', puntaje_total
+FinAlgoritmo

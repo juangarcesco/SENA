@@ -1,0 +1,16 @@
+Algoritmo CompararEdades
+    Definir edad1, edad2, mayor, menor Como Entero
+    
+    Leer edad1, edad2
+    
+    Si edad1 > edad2 Entonces
+        mayor <- edad1
+        menor <- edad2
+    Sino
+        mayor <- edad2
+        menor <- edad1
+    FinSi
+    
+    Escribir "El hermano mayor tiene ", mayor, " años."
+    Escribir "La diferencia de edad es de ", mayor - menor, " años."
+FinAlgoritmo
